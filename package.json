@@ -1,22 +1,24 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "HUBTv signaling backend",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "@fastify/cors": "^9.0.1",
-    "dotenv": "^16.4.7",
-    "fastify": "^4.28.1",
-    "fastify-socket.io": "^5.1.0",
-    "ioredis": "^5.4.0",
-    "socket.io": "^4.8.1"
+    "@fastify/cors": "9.0.1",
+    "dotenv": "16.4.7",
+    "fastify": "4.28.1",
+    "fastify-socket.io": "5.1.0",
+    "ioredis": "5.4.0",
+    "socket.io": "4.8.1"
   }
 }
