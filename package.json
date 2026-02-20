@@ -12,11 +12,11 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@fastify/cors": "^11.2.0",
-    "dotenv": "^17.3.1",
-    "fastify": "^5.0.0",
+    "@fastify/cors": "^9.0.1",
+    "dotenv": "^16.4.7",
+    "fastify": "^4.28.1",
     "fastify-socket.io": "^5.1.0",
-    "ioredis": "^5.9.3",
-    "socket.io": "^4.8.3"
+    "ioredis": "^5.4.0",
+    "socket.io": "^4.8.1"
   }
 }
